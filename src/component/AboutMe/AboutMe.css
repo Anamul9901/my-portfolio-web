@@ -1,0 +1,7 @@
+.styleAbout {
+    background: url('https://i.ibb.co/C6TGCMp/bacGam.jpg'),
+    linear-gradient(rgba(121, 10, 152, 0.356), rgba(77, 15, 109, 0.944));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

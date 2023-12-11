@@ -5,7 +5,7 @@ const Education = () => {
     return (
         <div className="py-10 style text-white">
             <Contai>
-            <h2 className="text-2xl font-bold">LEARN MORE ABOUT ME</h2>
+           
             <h2>education</h2>
             <div>
                 <div className="overflow-x-auto">

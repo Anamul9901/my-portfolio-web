@@ -29,8 +29,8 @@ const Navber = () => {
             }>Resume</NavLink>
         </li>
 
+
     </>
-    
     return (
         <div className="bg-opacity-100 bg-black text-white max-w-[1250px] mx-auto">
 
@@ -56,7 +56,9 @@ const Navber = () => {
                         {navitem}
                     </ul>
                 </div>
+                
                 <div className="navbar-end">
+                    
 
 
                 </div>

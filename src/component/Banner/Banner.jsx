@@ -6,7 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className=" style h-[80vh] flex items-center">
+        <div className=" style h-[70vh] flex items-center">
             <Contai>
                 <div className="flex flex-col-reverse md:flex-row gap-20 md:gap-0 justify-between items-center text-white">
                     <div>
