@@ -29,17 +29,10 @@ const Navber = () => {
             }>Resume</NavLink>
         </li>
 
-
-
-        <li>
-            <NavLink to="https://www.youtube.com/watch?v=pJQXGmMofro" target="_blan" className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? 'text-[#ff5151] underline font-black md:text-xl ' : "lg:text-white text-[#f76b00] font-bold md:text-xl"
-            }>Watch Demo</NavLink>
-        </li>
-
     </>
+    
     return (
-        <div className="bg-opacity-100 bg-black text-white max-w-screen-xl mx-auto">
+        <div className="bg-opacity-100 bg-black text-white max-w-[1250px] mx-auto">
 
             <div className="navbar fixed z-10 ">
                 <div className="navbar-start ">
@@ -64,33 +57,6 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-
-                    <div className="flex items-center">
-                        <div className="flex flex-row-reverse items-center">
-
-                            <div>
-                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                                    <div className="w-10 rounded-full">
-                                        {/* img */}
-                                    </div>
-                                </label>
-                            </div>
-                            <div className="">
-                                <span className="text-xs md:text-lg font-bold">
-                                    {/* -- */}
-                                </span>
-                            </div>
-                        </div>
-                        <button className=" ">
-
-                        </button>
-                    </div>
-
-                    <Link to='/login'>
-                        <button className="btn btn-sm bg-white hover:text-[#080403] text-black font-bold">Log In</button>
-                    </Link>
-
-
 
 
                 </div>

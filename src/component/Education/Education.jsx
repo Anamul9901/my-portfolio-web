@@ -46,14 +46,14 @@ const Education = () => {
                                 <td>2020</td>
                             </tr>
                             <tr>
-                                <th>3</th>
+                                <th>4</th>
                                 <td>HSC</td>
                                 <td>Narsingdi Gov. College</td>
                                 <td>A+</td>
                                 <td>2022</td>
                             </tr>
                             <tr>
-                                <th>3</th>
+                                <th>5</th>
                                 <td>BSc in CSE</td>
                                 <td>NU</td>
                                 <td>Not yet(1st semister)</td>
