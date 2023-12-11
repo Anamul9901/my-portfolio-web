@@ -88,23 +88,21 @@ const Resume = () => {
 
                 </div>
 
-                
-
-            </Contai>
-            <div className="relative text-center -mt-20">
+                <div className="relative text-center -mt-20">
                 <button className="receipt-modal-download-button text-white font-bold btn bg-pink-500 "
                 onClick={downloadPDF}
                 disabled={!(loader===false)}
                 > 
                     
                     {loader?(
-                        <span>Downloading</span>
+                        <span className="text-pink-500">Downloading...</span>
                     ):(
                         <span>Download</span>
                     )}
                 </button>
                 </div>
 
+            </Contai>
         </div>
     );
 };
