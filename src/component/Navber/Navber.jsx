@@ -28,6 +28,11 @@ const Navber = () => {
                 isPending ? "pending" : isActive ? 'text-[#ff5151] underline font-black md:text-xl ' : "lg:text-white text-[#f76b00] font-bold md:text-xl"
             }>Resume</NavLink>
         </li>
+        <li>
+            <NavLink to='/contact' className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? 'text-[#ff5151] underline font-black md:text-xl ' : "lg:text-white text-[#f76b00] font-bold md:text-xl"
+            }>Conract</NavLink>
+        </li>
 
 
     </>

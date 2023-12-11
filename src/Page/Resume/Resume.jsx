@@ -1,26 +1,12 @@
-import { useState } from "react";
+
 import Contai from "../../component/Shared/Contai";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
+import pdf from "../../assets/Image/Niche Selection.pdf"
 
 
 
 const Resume = () => {
-    const [loader, setLoader] = useState(false);
 
-    const downloadPDF = () =>{
-        const capture = document.querySelector('.actual-receipt');
-        setLoader(true);
-        html2canvas(capture).then((canvas)=>{
-            const imgData = canvas.toDataURL('img/png');
-            const doc = new jsPDF('p', 'mm', 'a4');
-            const componentWidth = doc.internal.pageSize.getWidth();
-            const componentHeight = doc.internal.pageSize.getHeight();
-            doc.addImage(imgData, 'PNG', 0, 0, componentWidth, componentHeight);
-            setLoader(false);
-            doc.save('receipt.pdf');
-        })
-    }
+    
 
     return (
         <div className="style h-screen pt-20">
@@ -88,18 +74,8 @@ const Resume = () => {
 
                 </div>
 
-                <div className="relative text-center -mt-20">
-                <button className="receipt-modal-download-button text-white font-bold btn bg-pink-500 "
-                onClick={downloadPDF}
-                disabled={!(loader===false)}
-                > 
-                    
-                    {loader?(
-                        <span className="text-pink-500">Downloading...</span>
-                    ):(
-                        <span>Download</span>
-                    )}
-                </button>
+                <div className="pt-5 flex justify-center relative -mt-20">
+                <a href={pdf} download><button className="btn btn-sm btn-primary">download</button></a>
                 </div>
 
             </Contai>

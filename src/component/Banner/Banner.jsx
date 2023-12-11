@@ -23,7 +23,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div>
-                        <img className="w-64" src={'https://i.ibb.co/QJ3NGXj/Anamul-Haque-removebg.png'} alt="" />
+                        <img className="w-64 rounded-3xl shadow-lg" src={'https://i.ibb.co/QJ3NGXj/Anamul-Haque-removebg.png'} alt="" />
                     </div>
                 </div>
             </Contai>
