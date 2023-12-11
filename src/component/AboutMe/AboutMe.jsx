@@ -5,7 +5,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 const AboutMe = () => {
     return (
-        <div className="styleAbout text-white">
+        <div className="styleAbout text-white pb-10">
             <Contai>
                 <h2 className="text-2xl font-bold py-10">LEARN MORE ABOUT ME</h2>
                 <div className="md:flex items-center">
@@ -16,7 +16,7 @@ const AboutMe = () => {
 
                 <div className="flex-1 ml-4">
                     <div className=" ">
-                        <h2 className="text-3xl font-bold pb-2">Website Developer</h2>
+                        <h2 className="text-xl font-bold pb-2 pt-5 md:pt-0 text-center md:text-left">Website Developer</h2>
                         <p>As a web developer who is eager to continuously improve myself in the field of website, I am applying to you. I want to focus on my contributions and goals in the field of web development. With my experience and skills in the website world, I can help you successfully realise your projects. I am constantly trying to learn and improve myself by following the latest developments in the sector I am in.</p>
                     </div>
 

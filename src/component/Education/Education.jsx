@@ -6,7 +6,7 @@ const Education = () => {
         <div className="py-10 style text-white">
             <Contai>
            
-            <h2>education</h2>
+            <h2 className="text-2xl font-bold uppercase pt-2 pb-8">education</h2>
             <div>
                 <div className="overflow-x-auto">
                     <table className="table ">
