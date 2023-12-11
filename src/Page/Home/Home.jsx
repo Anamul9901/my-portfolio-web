@@ -1,9 +1,14 @@
- 
+import Banner from "../../component/Banner/Banner";
+import Skills from "../../component/Skills/Skills";
+
+
 
 const Home = () => {
     return (
         <div>
-            <h2 className="text-2xl">home</h2>
+            
+            <Banner />
+            <Skills />
         </div>
     );
 };

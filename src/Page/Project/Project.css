@@ -1,0 +1,7 @@
+.style{
+    background: url(''),
+    linear-gradient(rgba(233, 342, 233, 0.34), rgba(233, 233, 234, 0.23));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
