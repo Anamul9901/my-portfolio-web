@@ -24,7 +24,7 @@ const Navber = () => {
         </li>
 
         <li>
-            <NavLink to='/create-store' className={({ isActive, isPending }) =>
+            <NavLink to='/resume' className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? 'text-[#ff5151] underline font-black md:text-xl ' : "lg:text-white text-[#f76b00] font-bold md:text-xl"
             }>Resume</NavLink>
         </li>

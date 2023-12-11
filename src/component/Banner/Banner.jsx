@@ -15,9 +15,11 @@ const Banner = () => {
                         <p className="text-xl pt-3">I'm a passionate Software Developer from İstanbul</p>
                         </div>
                         <div className="flex items-center justify-center pt-8 gap-5">
-                            <NavLink to="https://www.youtube.com/watch?v=pJQXGmMofro" target="_blan" className="btn glass rounded-full text-white text-2xl"><FaLinkedin /></NavLink>
-                            <button className="btn glass text-white rounded-full text-2xl"><FaGithub /></button>
-                            <button className="btn glass rounded-full text-white text-2xl"><FaFacebook /></button>
+                            <NavLink to="https://www.linkedin.com/in/anamul-haque-772264299/" target="_blan" className="btn glass rounded-full text-white text-2xl"><FaLinkedin /></NavLink>
+
+                            <NavLink to="https://github.com/Anamul9901" target="_blank" className="btn glass text-white rounded-full text-2xl"><FaGithub /></NavLink>
+
+                            <NavLink to="https://www.facebook.com/Anamul114" target="_blank" className="btn glass rounded-full text-white text-2xl"><FaFacebook /></NavLink>
                         </div>
                     </div>
                     <div>
