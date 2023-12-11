@@ -12,7 +12,7 @@ const Banner = () => {
                     <div>
                         <div>
                         <h2 className="text-4xl font-bold">Hi, I'm Anmul Haque</h2>
-                        <p className="text-xl pt-3">I'm a passionate Software Developer from İstanbul</p>
+                        <p className="text-xl pt-3">I'm a passionate Website Developer from Bangladesh</p>
                         </div>
                         <div className="flex items-center justify-center pt-8 gap-5">
                             <NavLink to="https://www.linkedin.com/in/anamul-haque-772264299/" target="_blan" className="btn glass rounded-full text-white text-2xl"><FaLinkedin /></NavLink>
@@ -22,7 +22,7 @@ const Banner = () => {
                             <NavLink to="https://www.facebook.com/Anamul114" target="_blank" className="btn glass rounded-full text-white text-2xl"><FaFacebook /></NavLink>
                         </div>
                     </div>
-                    <div>
+                    <div className="pt-10 md:pt-0">
                         <img className="w-64 rounded-3xl shadow-lg" src={'https://i.ibb.co/QJ3NGXj/Anamul-Haque-removebg.png'} alt="" />
                     </div>
                 </div>

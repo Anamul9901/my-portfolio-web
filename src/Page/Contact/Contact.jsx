@@ -33,9 +33,9 @@ const Contact = () => {
     return (
       <div className='style'>
           <Contai>
-            <div className='pt-20 h-[80vh] items-center'>
+            <div className='pt-20 md:h-[80vh] h-full items-center'>
                 <div className='grid md:grid-cols-2 gap-4 text-white'>
-                    <div className='border bg-stone-400 rounded-md p-5 flex items-center gap-5'>
+                    <div className=' bg-stone-700 rounded-md p-5 flex items-center gap-5'>
                         <div className='btn rounded-full text-xl'>
                             <FaLocationDot />
                         </div>
@@ -45,22 +45,22 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className='border  p-5 flex items-center gap-5 bg-stone-400 rounded-md'>
+                    <div className='  p-5 flex items-center gap-5 bg-stone-700 rounded-md'>
                         <div className='btn rounded-full text-xl'>
                             <IoShareSocialOutline />
                         </div>
                         <div>
                             <h2 className='text-xl font-bold'>Social Profiles</h2>
                             <div className="flex items-center gap-1">
-                                <NavLink to="https://www.linkedin.com/in/anamul-haque-772264299/" target="_blan" className="btn glass rounded-full btn-sm"><FaLinkedin /></NavLink>
+                                <NavLink to="https://www.linkedin.com/in/anamul-haque-772264299/" target="_blan" className="btn glass rounded-full btn-sm text-white"><FaLinkedin /></NavLink>
 
-                                <NavLink to="https://github.com/Anamul9901" target="_blank" className="btn glass rounded-full btn-sm"><FaGithub /></NavLink>
+                                <NavLink to="https://github.com/Anamul9901" target="_blank" className="btn glass rounded-full btn-sm text-white"><FaGithub /></NavLink>
 
-                                <NavLink to="https://www.facebook.com/Anamul114" target="_blank" className="btn glass rounded-full btn-sm "><FaFacebook /></NavLink>
+                                <NavLink to="https://www.facebook.com/Anamul114" target="_blank" className="btn glass rounded-full btn-sm text-white"><FaFacebook /></NavLink>
                             </div>
                         </div>
                     </div>
-                    <div className='border bg-stone-400 rounded-md p-5 flex items-center gap-5'>
+                    <div className=' bg-stone-700 rounded-md p-5 flex items-center gap-5'>
                         <div className='btn rounded-full text-xl'>
                             <MdOutlineMail />
                         </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className='border bg-stone-400 rounded-md p-5 flex items-center gap-5'>
+                    <div className=' bg-stone-700 rounded-md p-5 flex items-center gap-5'>
                         <div className='btn rounded-full text-xl'>
                             <IoMdCall />
                         </div>
