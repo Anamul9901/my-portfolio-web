@@ -49,7 +49,7 @@ const AboutMe = () => {
                         <div className=" ">
                             <p className="flex items-center">
                                 <span className="text-green-500"><MdArrowForwardIos /></span>
-                                <p><span className="font-bold">Phone:</span> +8801864668089</p>
+                                <p><span className="font-bold">Phone:</span> +8809696668089</p>
                             </p>
                         </div>
                         <div className=" ">

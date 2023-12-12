@@ -33,7 +33,7 @@ const Contact = () => {
     return (
       <div className='style'>
           <Contai>
-            <div className='pt-20 md:h-[80vh] h-full items-center'>
+            <div className='pt-20 md:h-[100vh]  items-center'>
                 <div className='grid md:grid-cols-2 gap-4 text-white'>
                     <div className=' bg-stone-700 rounded-md p-5 flex items-center gap-5'>
                         <div className='btn rounded-full text-xl'>
@@ -76,7 +76,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h2 className='text-xl font-bold'>Call Me</h2>
-                            <p>+8801864668089</p>
+                            <p>+8809696668089</p>
                         </div>
                     </div>
                 </div>

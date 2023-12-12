@@ -22,7 +22,7 @@ const Resume = () => {
                             <p>I am a fontend developer. I a at the beginning of my career and i am trying my berst to improve myself.</p>
                             <ol>
                                 <li>Dhaka, Bangladesh</li>
-                                <li> (+880)1864668089</li>
+                                <li> +8809696668089</li>
                                 <li>anamulhaque9901@gmail.com</li>
                             </ol>
                         </div>
@@ -33,7 +33,7 @@ const Resume = () => {
                             <p>I am a fontend developer. I a at the beginning of my career and i am trying my berst to improve myself.</p>
                             <ol>
                                 <li>Dhaka, Bangladesh</li>
-                                <li> (+880)1864668089</li>
+                                <li> +8809696668089</li>
                                 <li>anamulhaque9901@gmail.com</li>
                             </ol>
                         </div>
@@ -44,7 +44,7 @@ const Resume = () => {
                             <p>I am a fontend developer. I a at the beginning of my career and i am trying my berst to improve myself.</p>
                             <ol>
                                 <li>Dhaka, Bangladesh</li>
-                                <li> (+880)1864668089</li>
+                                <li> +8809696668089</li>
                                 <li>anamulhaque9901@gmail.com</li>
                             </ol>
                         </div>
@@ -55,7 +55,7 @@ const Resume = () => {
                             <p>I am a fontend developer. I a at the beginning of my career and i am trying my berst to improve myself.</p>
                             <ol>
                                 <li>Dhaka, Bangladesh</li>
-                                <li> (+880)1864668089</li>
+                                <li> +8809696668089</li>
                                 <li>anamulhaque9901@gmail.com</li>
                             </ol>
                         </div>
@@ -66,7 +66,7 @@ const Resume = () => {
                             <p>I am a fontend developer. I a at the beginning of my career and i am trying my berst to improve myself.</p>
                             <ol>
                                 <li>Dhaka, Bangladesh</li>
-                                <li> (+880)1864668089</li>
+                                <li> +8809696668089</li>
                                 <li>anamulhaque9901@gmail.com</li>
                             </ol>
                         </div>
