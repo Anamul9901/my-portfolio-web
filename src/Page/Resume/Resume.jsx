@@ -9,7 +9,7 @@ const Resume = () => {
 
 
     return (
-        <div className="style pt-20 ">
+        <div className="style pt-20 pb-20">
             <Contai>
                 <div className="actual-receipt bg-white text-black   p-20">
                     {/* <h2>Resume</h2>
@@ -99,15 +99,24 @@ const Resume = () => {
                         </div>
 
                         <div>
-                            <h2>Sumary</h2>
-                            <h2>ANAMUL HAQUE</h2>
-                            <p>I am a fontend developer. I a at the beginning of my career and i am trying my berst to improve myself.</p>
-                            <ol>
-                                <li>Dhaka, Bangladesh</li>
-                                <li> +8809696668089</li>
-                                <li>anamulhaque9901@gmail.com</li>
-                            </ol>
+                            <h2 className="font-bold text-xl text-blue-500 pt-3">EDUCATION</h2>
+                            <p><span className="font-bold">SSC:</span>  Pirjkandi High School (2020) || GPA- 5.00</p>
+                            <p><span className="font-bold">HSC:</span>  Narsingdi Gov College (2022) || GPA- 5.00</p>
+                            <p>I am currently in the first year of the BSc in Computer Science and Engineering (CSE)</p>
                         </div>
+
+                        <div>
+                            <h2 className="font-bold text-xl text-blue-500 pt-3">PROFESSIONAL COURSES</h2>
+                            <p>Complete Web Development Course from Programming Hero (Batch-8).
+                            </p>
+                        </div>
+
+                        <div>
+                            <h2 className="font-bold text-xl text-blue-500 pt-3">LANGUAGE</h2>
+                            <p>Bangla - Native   ||     English - Beginner     ||     Hindi - Beginner
+                            </p>
+                        </div>
+
                     </div>
 
                 </div>
