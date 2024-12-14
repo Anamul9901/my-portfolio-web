@@ -60,7 +60,7 @@ const Education = () => {
                                     <th>5</th>
                                     <td>BSc in CSE</td>
                                     <td>NU</td>
-                                    <td>Not yet(1st semister)</td>
+                                    <td>Not yet(1st year)</td>
                                     <td>2027</td>
                                 </tr>
                             </tbody>
@@ -71,7 +71,7 @@ const Education = () => {
                 <div>
                     <h2 className="text-2xl font-bold pt-12 pb-10">INTERESTS</h2>
 
-                    <div className="flex justify-center">
+                    <div className="flex justify-center pb-12">
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 ">
                             <div className=" p-4 flex items-center gap-4 bg-stone-800 rounded-md cursor-pointer">
                                 <MdOutlineSettingsSuggest className="text-2xl"/>
@@ -89,7 +89,7 @@ const Education = () => {
                             <div className=" p-4 flex items-center gap-4 bg-stone-800 rounded-md cursor-pointer">
                                 <CiStreamOn className="text-2xl"/>
                                 <h2>
-                                    Live Stream</h2>
+                                    Team work</h2>
                             </div>
 
                         </div>

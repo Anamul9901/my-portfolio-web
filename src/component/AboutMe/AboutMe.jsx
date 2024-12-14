@@ -17,7 +17,8 @@ const AboutMe = () => {
                 <div className="flex-1 ml-4">
                     <div className=" ">
                         <h2 className="text-xl font-bold pb-2 pt-5 md:pt-0 text-center md:text-left">Website Developer</h2>
-                        <p>As a web developer who is eager to continuously improve myself in the field of website, I am applying to you. I want to focus on my contributions and goals in the field of web development. With my experience and skills in the website world, I can help you successfully realise your projects. I am constantly trying to learn and improve myself by following the latest developments in the sector I am in.</p>
+                        <p>Full-Stack Web Developer with 2+ years of experience in scalable web application development, specialising in backend systems. Passionate about optimizing web functionalities through efficient solutions, solving complex problems, and delivering exceptional user experiences.
+                        </p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-1 pt-3">
@@ -71,9 +72,6 @@ const AboutMe = () => {
                             </p>
                         </div>
                     </div>
-                        <div className="pt-3">
-                            <h2>I am a fontend developer. I am at the beginning of my career and I am trying my best to improve myself.</h2>
-                        </div>
 
                 </div>
                 </div>

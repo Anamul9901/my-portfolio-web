@@ -6,7 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className=" style md:h-[90vh] flex items-center pb-10 pt-10">
+        <div className=" style md:h-[93vh] flex items-center pb-10 pt-10">
             <Contai>
                 <div className="flex flex-col-reverse md:flex-row gap-20 md:gap-0 justify-between items-center text-white">
                     <div>
@@ -29,7 +29,7 @@ const Banner = () => {
 
 
                 
-               <div className="text-white pt-20">
+               {/* <div className="text-white pt-20">
                <h2 className="text-2xl font-bold uppercase pb-6">Skills</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2">
 
@@ -77,7 +77,7 @@ const Banner = () => {
                     </div>
 
                 </div>
-               </div>
+               </div> */}
             </Contai>
         </div>
     );
